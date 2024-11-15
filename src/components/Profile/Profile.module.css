@@ -1,0 +1,90 @@
+.detail {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.compNow {
+  float: right;
+}
+
+.comp {
+  color: #007bff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.comp:hover {
+  color: #0056b3;
+  text-decoration: underline;
+}
+
+.pro {
+  background-color: #b6b6b1;
+  border-radius: 8px;
+  width: 100%;
+  max-width: 380px;
+  margin: 30px auto;
+  padding: 30px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.pro h2 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.pro label {
+  display: block;
+  margin: 10px 0;
+  font-weight: bold;
+  color: #555;
+}
+
+.pro input {
+  width: 80%;
+  height: 50px;
+  background-color: white;
+  border: 1px solid lightgray;
+  border-radius: 4px;
+  margin: 15px auto;
+  padding: 10px;
+  font-size: 1rem;
+}
+
+.pro input:focus {
+  border-color: #5e77f4;
+  outline: none;
+}
+
+.btn {
+  background-color: #5e77f4;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.btn:hover {
+  background-color: #999;
+}
+
+.btn:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+@media screen and (max-width: 768px) {
+  .pro {
+    width: 90%;
+  }
+
+  .pro input {
+    width: 90%;
+  }
+}

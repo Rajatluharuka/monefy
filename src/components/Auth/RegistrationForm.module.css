@@ -1,0 +1,98 @@
+.form {
+  background-color: #b6b6b1;
+  border-radius: 8px;
+  width: 100%;
+  max-width: 380px;
+  margin: 30px auto;
+  padding: 30px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.form_body {
+  text-align: left;
+  padding: 20px 10px;
+}
+
+.form__label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+.form input {
+  width: 300px;
+  height: 45px;
+  padding: 10px;
+  background-color: white;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  margin: 10px auto;
+  display: block;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+.form input:focus {
+  border-color: #ffdd57;
+  outline: none;
+}
+
+.footer {
+  text-align: center;
+  padding: 20px;
+}
+
+.btn {
+  background-color: #5e77f4;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.btn:hover {
+  background-color: #b6b6b1;
+  color: #fff;
+  border: solid 1px #fff;
+}
+
+.error {
+  color: red;
+  margin: 10px 0;
+  font-size: 14px;
+}
+
+.footer p {
+  margin-top: 10px;
+}
+
+.reg_login {
+  margin-top: 0px;
+  font-size: 0.9rem;
+  color: #333;
+}
+
+.login_link {
+  color: #007bff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.login_link:hover {
+  color: #0056b3;
+  text-decoration: underline;
+}
+
+@media (max-width: 600px) {
+  .form input {
+    width: 100%;
+  }
+
+  .form {
+    width: 90%;
+  }
+}

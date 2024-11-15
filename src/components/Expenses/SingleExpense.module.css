@@ -1,0 +1,62 @@
+.expenseItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f9f9f9;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+}
+
+.expenseItem:hover {
+  transform: scale(1.02);
+}
+
+.expenseDetails {
+  font-style: italic;
+  color: #333;
+  margin-right: 10px;
+  flex-grow: 1;
+}
+
+.editBtn,
+.deleteBtn {
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 6px;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.editBtn {
+  background-color: #ffc107;
+}
+
+.deleteBtn {
+  background-color: #dc3545;
+}
+
+.editBtn:hover {
+  background-color: #e0a800;
+}
+
+.deleteBtn:hover {
+  background-color: #c82333;
+}
+
+@media screen and (max-width: 600px) {
+  .expenseItem {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .editBtn,
+  .deleteBtn {
+    width: 100%;
+    margin: 5px 0;
+  }
+}

@@ -1,0 +1,72 @@
+.form {
+  margin: 20px auto;
+  padding: 20px;
+  width: 90%;
+  max-width: 600px;
+  background-color: #b6b6b1;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.allInput {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+}
+
+.form_input {
+  display: flex;
+  flex-direction: column;
+}
+
+.form_input input,
+.select {
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.form_input input:focus,
+.select:focus {
+  outline: none;
+  border-color: #007bff;
+}
+
+h5 {
+  margin-bottom: 8px;
+  color: #333;
+}
+
+.btn {
+  background-color: #5e77f4;
+  color: white;
+  padding: 10px 20px;
+  margin: 5px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.btn:hover {
+  background-color: #0056b3;
+}
+
+.csvLink {
+  margin-top: 20px;
+  padding: 10px 15px;
+  background-color: #28a745;
+  color: white;
+  text-align: center;
+  display: inline-block;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.csvLink:hover {
+  background-color: #218838;
+}
