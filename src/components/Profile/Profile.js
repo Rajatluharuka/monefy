@@ -81,7 +81,7 @@ const Profile = () => {
     <>
       <header>
         <h3>
-          <i>Winners never quit, Quitters never win</i>
+          <i>Winners persist, quitters resist success</i>
           <i className={styles.compNow}>
             Your profile is 65% complete{" "}
             <Link to="#" className={styles.comp}>
